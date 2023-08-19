@@ -1,0 +1,72 @@
+typst-is-cool:
+  author:
+    name: Smith
+    given-name: Jane
+  title: Some title
+  date: 2023
+  url:
+    value: https://example.com
+    date: 2023-08-25
+  parent:
+    title: Jane's blog
+company-report:
+  author: A big company
+  title: Another title
+  date: 2021
+  url:
+    value: https://example.com
+    date: 2023-01-01
+  parent:
+    title: A big company
+same-year1:
+  author: Foo
+  title: Title 1 with the same year
+  date: 2020
+  url:
+    value: https://example.com
+    date: 2023-12-25
+  parent:
+    title: Foo parent
+same-year2:
+  author: Foo
+  title: Title 2 with the same year
+  date: 2020
+  url:
+    value: https://example.com
+    date: 2022-12-14
+  parent:
+    title: Foo parent
+multiple-authors:
+  author:
+  - Author 1
+  - given-name: First 2
+    middle-name: Middle 2
+    name: Last 2
+  title: Two people wrote this!
+  url:
+    value: https://example.com
+    date: 2022-12-14
+  parent:
+    title: Baz
+long-author1:
+  author:
+    name: Some Really Long Name
+    short-name: SRLN
+  title: I'm running out of ideas
+  date: 2019
+  url:
+    value: https://example.com
+    date: 2023-01-01
+  parent:
+    title: Qux
+long-author2:
+  author:
+    name: Some Really Long Name
+    short-name: SRLN
+  title: for titles
+  date: 2022-12-31019
+  url:
+    value: https://example.com
+    date: 2023-01-01
+  parent:
+    title: Abc

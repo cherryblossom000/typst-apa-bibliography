@@ -1,0 +1,7 @@
+[package]
+name = "apa-bibliography"
+version = "0.0.1"
+entrypoint = "lib.typ"
+authors = ["Lauren Yim"]
+license = "MIT"
+description = "APA 7th style bibliography with correctly formatted output"
