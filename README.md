@@ -1,5 +1,11 @@
 # apa-bibliography
 
+## :warning: Deprecated
+
+[Typst v0.9.0](https://github.com/typst/typst/releases/tag/v0.9.0) has a new bibliography engine that now handles APA bibliographies correctly.
+
+---
+
 Typst’s default [`#bibliography(style: "apa")`][bib] has
 [numerous issues][issue] with its output not conforming to APA 7th guidelines.
 This package aims to provide a replacement that is somewhat compatible with the
